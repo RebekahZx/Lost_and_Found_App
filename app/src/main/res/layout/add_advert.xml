@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Advert"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:id="@+id/typeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/lostRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lost"
+                android:buttonTint="#000000"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/foundRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Found"
+                android:buttonTint="#000000"
+                android:textColor="#000000"
+                android:layout_marginStart="24dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/itemNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Name"
+            android:backgroundTint="#CCCCCC"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/descriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:backgroundTint="#CCCCCC"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/contactInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Info"
+            android:inputType="phone"
+            android:backgroundTint="#CCCCCC"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"
+            android:inputType="date"
+            android:backgroundTint="#CCCCCC"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/locationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:backgroundTint="#CCCCCC"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:fontFamily="sans-serif-medium"
+            android:padding="12dp"
+            android:text="Save Advert"
+            android:textColor="#232121" />
+    </LinearLayout>
+</ScrollView>

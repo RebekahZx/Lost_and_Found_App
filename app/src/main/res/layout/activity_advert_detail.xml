@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/advertDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advert details will appear here"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#222222"
+            android:lineSpacingExtra="8dp"
+            android:padding="16dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#F9F9F9"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:background="@drawable/rounded_bg" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Advert"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:backgroundTint="#FF3B30"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button_red" />
+
+    </LinearLayout>
+</ScrollView>

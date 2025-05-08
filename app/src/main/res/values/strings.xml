@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="type_options">
+        <item>Lost</item>
+        <item>Found</item>
+    </string-array>
+
+</resources>

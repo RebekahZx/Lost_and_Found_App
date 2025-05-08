@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Create Advert Button -->
+    <Button
+        android:id="@+id/createAdvertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_bg"
+        android:backgroundTint="#007BFF"
+
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Create Advert"
+        android:textColor="#FFFFFF" />
+
+    <!-- List All Adverts Button -->
+    <Button
+        android:id="@+id/listAdvertsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg"
+
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="List All Adverts"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
