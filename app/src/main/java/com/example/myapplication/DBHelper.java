@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static final String DB_NAME = "LostFoundDB";
-    private static final int DB_VERSION = 2;
+    private static final String DB_NAME = "NewLostFoundDB";
+    private static final int DB_VERSION = 1;
 
     public DBHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -24,7 +24,9 @@ public class DBHelper extends SQLiteOpenHelper {
                 "description TEXT," +
                 "location TEXT," +
                 "date TEXT," +
-                "type TEXT)");
+                "type TEXT,"+
+                "lat REAL," +
+                "lng REAL)");
     }
 
     @Override

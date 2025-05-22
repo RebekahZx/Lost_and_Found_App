@@ -29,8 +29,21 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_bg"
 
+        android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif-medium"
         android:padding="12dp"
         android:text="List All Adverts"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/showOnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg"
+
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Show on map"
         android:textColor="#FFFFFF" />
 </LinearLayout>

@@ -6,6 +6,12 @@ android {
     namespace = "com.example.myapplication"
     compileSdk = 35
 
+    buildFeatures {
+        compose=true
+        viewBinding=true
+    }
+
+
     defaultConfig {
         applicationId = "com.example.myapplication"
         minSdk = 26
@@ -40,4 +46,14 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+    implementation("com.google.android.libraries.places:places:3.3.0")
+
+
+
+
+
+
+
 }
